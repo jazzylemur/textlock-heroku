@@ -50,7 +50,7 @@ USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/var/www/example.com/media/"
-MEDIA_ROOT = 'C:/Python27/Scripts/tester/pools/media'
+MEDIA_ROOT = ' '
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
@@ -108,7 +108,7 @@ ROOT_URLCONF = 'tester.urls'
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'tester.wsgi.application'
 
-TEMPLATE_DIRS = ( 'C:/Python27/Scripts/tester/pools'
+TEMPLATE_DIRS = ( '/pools'
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
